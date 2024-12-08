@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Pass || Zepto</title>
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.js"></script>
+
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <!-- header  -->
+        <div class="row bg-nav d-none d-md-block d-lg-block sticky-top">
+            <div class="col-sm-11 mx-auto  ">
+                <div class="row py-2">
+                    <div class="col-sm-4 col-9 order-2 order-md-1 ">
+                        <div class="d-flex ">
+                            <div class="pt-2 d-none d-md-block d-lg-block">
+                                <img src="img/svg/primary-logo.svg" alt="logo" class="img-fluid" width="130px">
+                            </div>
+                            <div class="ps-3 card-title">
+                                <span class="fw-bold fs-5">Delivery in 6 Mins</span> <br>
+                                <a href="#" class="fw-bold text-decoration-none text-dark"
+                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Other - Jankipuram
+                                    Garden, Gaurabagh.....<i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-12 order-4 order-md-2 ">
+                        <form class="d-flex pt-1">
+                            <input class="form-control shadow-none" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-sm-1  col-2 order-3 order-md-3">
+                        <a href="zeptoPass.html"><img src="img/svg/download.svg" alt=""
+                                class="img-fluid pt-1 text-center"></a>
+                    </div>
+                    <div class="col-sm-1 col-1 order-1 order-md-4">
+                        <a href="#" class="text-dark  text-center" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal"><i class="fs-4  fa-regular fa-circle-user pt-2"></i></a>
+                    </div>
+                    <div class="col-sm-1 order-md-5">
+                        <a href="#" class="text-dark d-none d-md-block d-lg-block " data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                class="fs-4 fa-solid fa-cart-shopping pt-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+
+        <!-- header 2  -->
+        <div class="row bg-nav2 d-md-none d-lg-none d-sm-block">
+            <div class="col-sm-11 mx-auto  ">
+                <div class="row py-2">
+                    <div class="col-sm-4 col-9 order-2 order-md-1 ">
+                        <div class="d-flex ">
+                            <div class="pt-2 d-none d-md-block d-lg-block">
+                                <img src="img/svg/primary-logo.svg" alt="logo" class="img-fluid">
+                            </div>
+                            <div class="ps-3 text-light">
+                                <span class="fw-bold">Delivery in 6 Mins</span> <br>
+                                <a href="#" class="fw-semibold text-decoration-none text-light"
+                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Other - Jankipuram
+                                    Garden, Gaurabagh.....<i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-12 order-4 order-md-2  sticky-sm-top">
+                        <form class="d-flex pt-1">
+                            <input class="form-control shadow-none" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-sm-1  col-2 order-3 order-md-3">
+                        <a href="zeptoPass.html"><img src="img/svg/download.svg" alt=""
+                                class="img-fluid pt-1 text-center"></a>
+                    </div>
+                    <div class="col-sm-1 col-1 order-1 order-md-4">
+                        <a href="#" class=" text-center text-light" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal"><i class="fs-4  fa-regular fa-circle-user pt-2"></i></a>
+                    </div>
+                    <div class="col-sm-1 order-md-5">
+                        <a href="#" class="text-dark d-none d-md-block d-lg-block "><i
+                                class="fs-4 fa-solid fa-cart-shopping pt-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header 2 end -->
+
+
+
+
+        <!-- modal login -->
+        <div class="modal fade " id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabe"
+            tabindex="1">
+            <div class="modal-dialog modal-dialog-centered  modal-lg">
+                <div class=" border-0 modal-content bg-transparent">
+                    <div class="row ">
+                        <div class="col-sm-11 mx-auto">
+                            <div class="row">
+                                <div class="col-sm-7 bg-login ">
+                                    <div class="text-end pt-3 d-md-none d-lg-none d-block">
+                                        <button type="button" class="btn-close btn " data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="pt-5 ps-3">
+                                        <img src="img/login/logo.svg" alt="" class="img-fluid">
+
+                                        <h1 class="text-light fs-2 fw-bold pt-4">Groceries delivered in 10 minutes</h1>
+                                    </div>
+
+
+                                    <form>
+                                        <div class="row pt-3">
+                                            <div class="col px-4 pb-1">
+                                                <input type="number"
+                                                    class="form-control rounded-pill  shadow-none no-spinner"
+                                                    placeholder="Enter Phone Number">
+                                            </div>
+                                        </div>
+
+                                        <div class="row pt-3">
+                                            <div class="col px-4 pb-5">
+                                                <a href="profile.html"
+                                                    class="btn btn-login w-100 rounded-pill ">Continue</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="text-light text-center pb-4">
+                                        <p class="p-0 m-0">By continuing you agree to our</p>
+                                        <a href="#" class="condition-text">Terms of Service</a> & <a href="#"
+                                            class="condition-text">Privacy Policy</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 bg-login1 bg-light d-none d-md-block d-lg-block">
+                                    <div class="text-end pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="img/login/get-the-app-phone.webp" alt=".." class="img-fluid">
+                                        <h3 class="login-left">Order faster & easier everytime</h3>
+                                        <p class="text-secondary">with the Zepto App</p>
+                                    </div>
+
+                                    <div class="py-3 text-center">
+                                        <img src="img/login/download-play-store.svg" alt="" class="img-fluid w-75">
+                                    </div>
+                                    <div class="pb-5 text-center">
+                                        <img src="img/login/download-app-store.svg" alt="" class="img-fluid w-75">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal end -->
+
+
+        <!-- modal location -->
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered rounded-5  h-100">
+                <div class="modal-content">
+                    <div class="modal-header p-0 m-0 p-2 shadow-sm">
+                        <h6 class="modal-title  mx-auto ps-5 text-center text-secondary" id="exampleModalToggleLabel">
+                            Your Loaction </h6>
+                        <button type="but" class="btn-close pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+
+                    <div class="p-3">
+                        <input type="search" placeholder=" Search New Address"
+                            class="form-control   bg-light shadow-none">
+                    </div>
+
+                    <div class=" ps-3 pb-5 ps-3">
+                        <span class="loction-1 fw-bold"><i class="fa-solid fa-location-crosshairs pe-1"></i>
+                            <span>Current Location</span></span>
+
+                        <div class="d-flex pe-4">
+                            <p href="#" class="mx-auto text-secondary">Enable your current location for better service
+                            </p>
+                            <a href="#" class="btn enanle-btn px-3 ">Enable</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal location end -->
+
+
+        <!-- cart  -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="d-flex p-3 border-bottom shadow-sm">
+                <button type="button" class="border-0 bg-transparent " data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-angle-left fs-5"></i></button>
+                <h6 class="offcanvas-title ps-2" id="offcanvasRightLabel">Cart</h6>
+            </div>
+            <div>
+
+            </div>
+            <div class="offcanvas-body bg-light py-5">
+                <div class="cart-off">
+                    <div class="row py-5">
+                        <div class="col-sm-12 bg-white p-0 text-center py-3">
+                            <h5>Please Login</h5>
+                            <h6>Please login to access the cart</h6>
+                            <a href="#" class="btn enanle-btn px-3 w-75">Login</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cart end -->
+
+
+        <!-- main section start -->
+
+        <!--pass-->
+        <div class="row">
+            <div class="col-sm-6 mx-auto border">
+                <div class="row ">
+                    <div class="col-sm-12 p-0">
+                        <a href="#"><img src="img/pass/816a0cf1-d8b3-4843-a262-4701a5548685.webp" alt=""
+                                class="img-fluid"></a>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-sm-12 pass-active py-2">
+                        <!-- <h5 class="text-center text-light">Pass</h5> -->
+                        <div class="text-center text-light">
+                            <a href="#" class="text-decoration-none text-light">
+                                <span class="active px-3">ACTIVE</span><span> Membership valid till </span><span
+                                    class="pass-date"> 12 Nov 2024</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col-sm-12 saved-outer">
+                        <div class="row">
+                            <div class="col-sm-12 saved py-2">
+                                <h6>You've saved <span class="pass-date">₹125</span> so far</h6>
+                                <p class="">That’s more than 12 times of what you’ve paid for Pass</p>
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="col-sm-12 border rounded py-2">
+                                <div class="d-flex justify-content-between">
+                                    <span> <img src="img/pass/FreeDelivery.svg" alt="" class="img-fluid pe-2"><span
+                                            class=" fw-bold">Free Deliverise</span></span>
+                                    <span class="text-end "><i class="fa-solid fa-indian-rupee-sign"></i> Total</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-2">
+                    <img src="img/pass/border.webp" alt="" class="img-fluid">
+                </div>
+                <div class="row p-2">
+                    <div class="col-sm-12 border rounded ">
+                        <div class="d-flex justify-content-between">
+                            <span class=" fw-bold pt-3">Unlimited Free Deliveries <br>
+                                <span class="fw-normal">on orders above ₹99</span>
+                            </span>
+                            <span class="text-end "><img src="img/pass/FDBenefit.svg" alt=""
+                                    class="img-fluid pe-2 w-75"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-sm-12 border rounded ">
+                        <div class="d-flex justify-content-between">
+                            <span class=" fw-bold pt-3">Up to 20% extra off<br>
+                                <span class="fw-normal">on orders above ₹299</span>
+                            </span>
+                            <span class="text-end "><img src="img/pass/MovBenefit.svg" alt=""
+                                    class="img-fluid pe-2 w-75"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-sm-12 border rounded ">
+                        <div class="d-flex justify-content-between">
+                            <span class=" fw-bold pt-3">Extra 10% off on Fruits & Vegetables<br>
+                                <span class="fw-normal">on orders above ₹299</span>
+                            </span>
+                            <span class="text-end "><img src="img/pass/FnVBenefit.svg" alt=""
+                                    class="img-fluid pe-2 w-75"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-sm-12 border rounded ">
+                        <div class="d-flex justify-content-between">
+                            <span class=" fw-bold pt-3">Extra 10% off on Zepto Cafe <br>
+                                <span class="fw-normal">on orders above ₹299</span>
+                            </span>
+                            <span class="text-end "><img src="img/pass/CafeBenefit.svg" alt=""
+                                    class="img-fluid pe-2 w-75"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="img/pass/fqs.webp" alt="" class="img-fluid">
+                </div>
+
+                <div class="row p-2">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow-none fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What is Zepto Pass?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="text-secondary fw-semibold">Zepto Pass is a membership program offering
+                                        benefits like free deliveries and exclusive discounts, to enhance the shopping
+                                        experience and provide value to regular users.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow-none fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    How do I enroll in Zepto Pass?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="text-secondary fw-semibold">You can enroll in the program by paying the
+                                        enrollment fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow-none fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    What is the duration of Zepto Pass?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="text-secondary fw-semibold">The membership period is currently set at 1
+                                        month. We plan to introduce multiple time period constructs in the future.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed shadow-none fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Is there a minimum order for free delivery with Zepto Pass?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p class="text-secondary fw-semibold">Yes, Zepto Pass members get free delivery for
+                                        orders over ₹99 in all operating cities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" text-center">
+                        <a href="#" class="text-decoration-none pass-date">See All FAQs <i
+                                class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="row p-3 btn-bottom sticky-bottom">
+                    <div class="col-sm-12 inner-bg pt-3 pb-2">
+                        <h5><a href="index.html" class="text-decoration-none active">Start Ordering Now</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--pass end-->
+
+
+
+
+        <!-- <div class="row sticky-bottom bg-danger rounded-5">
+            <div class="col-sm-12">
+                <div class="text-center text-white pt-2">
+                    <p>&copy; 2022 <b>SoftPro India Lucknow</b> || All rights reserved.</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- main section end -->
+
+    </div>
+
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

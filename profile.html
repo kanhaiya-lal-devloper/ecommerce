@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Pass || Zepto</title>
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.js"></script>
+
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- header  -->
+        <div class="row bg-nav d-none d-md-block d-lg-block sticky-top">
+            <div class="col-sm-11 mx-auto  ">
+                <div class="row py-2">
+                    <div class="col-sm-4 col-9 order-2 order-md-1 ">
+                        <div class="d-flex ">
+                            <div class="pt-2 d-none d-md-block d-lg-block">
+                                <img src="img/svg/primary-logo.svg" alt="logo" class="img-fluid" width="130px">
+                            </div>
+                            <div class="ps-3 card-title">
+                                <span class="fw-bold fs-5">Delivery in 6 Mins</span> <br>
+                                <a href="#" class="fw-bold text-decoration-none text-dark"
+                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Other - Jankipuram
+                                    Garden, Gaurabagh.....<i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-12 order-4 order-md-2 ">
+                        <form class="d-flex pt-1">
+                            <input class="form-control shadow-none" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-sm-1  col-2 order-3 order-md-3">
+                        <a href="zeptoPass.html"><img src="img/svg/download.svg" alt=""
+                                class="img-fluid pt-1 text-center"></a>
+                    </div>
+                    <div class="col-sm-1 col-1 order-1 order-md-4">
+                        <a href="#" class="text-dark  text-center" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal"><i class="fs-4  fa-regular fa-circle-user pt-2"></i></a>
+                    </div>
+                    <div class="col-sm-1 order-md-5">
+                        <a href="#" class="text-dark d-none d-md-block d-lg-block " data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                class="fs-4 fa-solid fa-cart-shopping pt-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+
+        <!-- header 2  -->
+        <div class="row bg-nav2 d-md-none d-lg-none d-sm-block">
+            <div class="col-sm-11 mx-auto  ">
+                <div class="row py-2">
+                    <div class="col-sm-4 col-9 order-2 order-md-1 ">
+                        <div class="d-flex ">
+                            <div class="pt-2 d-none d-md-block d-lg-block">
+                                <img src="img/svg/primary-logo.svg" alt="logo" class="img-fluid">
+                            </div>
+                            <div class="ps-3 text-light">
+                                <span class="fw-bold">Delivery in 6 Mins</span> <br>
+                                <a href="#" class="fw-semibold text-decoration-none text-light"
+                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Other - Jankipuram
+                                    Garden, Gaurabagh.....<i class="fa-solid fa-caret-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-12 order-4 order-md-2  sticky-sm-top">
+                        <form class="d-flex pt-1">
+                            <input class="form-control shadow-none" type="search" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="col-sm-1  col-2 order-3 order-md-3">
+                        <a href="zeptoPass.html"><img src="img/svg/download.svg" alt=""
+                                class="img-fluid pt-1 text-center"></a>
+                    </div>
+                    <div class="col-sm-1 col-1 order-1 order-md-4">
+                        <a href="#" class=" text-center text-light" data-bs-target="#exampleModalToggle"
+                            data-bs-toggle="modal"><i class="fs-4  fa-regular fa-circle-user pt-2"></i></a>
+                    </div>
+                    <div class="col-sm-1 order-md-5">
+                        <a href="#" class="text-dark d-none d-md-block d-lg-block "><i
+                                class="fs-4 fa-solid fa-cart-shopping pt-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header 2 end -->
+
+
+
+        <!-- modal login -->
+        <div class="modal fade " id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabe"
+            tabindex="1">
+            <div class="modal-dialog modal-dialog-centered  modal-lg">
+                <div class=" border-0 modal-content bg-transparent">
+                    <div class="row ">
+                        <div class="col-sm-11 mx-auto">
+                            <div class="row">
+                                <div class="col-sm-7 bg-login ">
+                                    <div class="text-end pt-3 d-md-none d-lg-none d-block">
+                                        <button type="button" class="btn-close btn " data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="pt-5 ps-3">
+                                        <img src="img/login/logo.svg" alt="" class="img-fluid">
+
+                                        <h1 class="text-light fs-2 fw-bold pt-4">Groceries delivered in 10 minutes</h1>
+                                    </div>
+
+
+                                    <form>
+                                        <div class="row pt-3">
+                                            <div class="col px-4 pb-1">
+                                                <input type="number"
+                                                    class="form-control rounded-pill  shadow-none no-spinner"
+                                                    placeholder="Enter Phone Number">
+                                            </div>
+                                        </div>
+
+                                        <div class="row pt-3">
+                                            <div class="col px-4 pb-5">
+                                                <a href="profile.html"
+                                                    class="btn btn-login w-100 rounded-pill ">Continue</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="text-light text-center pb-4">
+                                        <p class="p-0 m-0">By continuing you agree to our</p>
+                                        <a href="#" class="condition-text">Terms of Service</a> & <a href="#"
+                                            class="condition-text">Privacy Policy</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 bg-login1 bg-light d-none d-md-block d-lg-block">
+                                    <div class="text-end pt-3">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <img src="img/login/get-the-app-phone.webp" alt=".." class="img-fluid">
+                                        <h3 class="login-left">Order faster & easier everytime</h3>
+                                        <p class="text-secondary">with the Zepto App</p>
+                                    </div>
+
+                                    <div class="py-3 text-center">
+                                        <img src="img/login/download-play-store.svg" alt="" class="img-fluid w-75">
+                                    </div>
+                                    <div class="pb-5 text-center">
+                                        <img src="img/login/download-app-store.svg" alt="" class="img-fluid w-75">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal end -->
+
+
+        <!-- modal location -->
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered rounded-5  h-100">
+                <div class="modal-content">
+                    <div class="modal-header p-0 m-0 p-2 shadow-sm">
+                        <h6 class="modal-title  mx-auto ps-5 text-center text-secondary" id="exampleModalToggleLabel">
+                            Your Loaction </h6>
+                        <button type="but" class="btn-close pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+
+                    <div class="p-3">
+                        <input type="search" placeholder=" Search New Address"
+                            class="form-control   bg-light shadow-none">
+                    </div>
+
+                    <div class=" ps-3 pb-5 ps-3">
+                        <span class="loction-1 fw-bold"><i class="fa-solid fa-location-crosshairs pe-1"></i>
+                            <span>Current Location</span></span>
+
+                        <div class="d-flex pe-4">
+                            <p href="#" class="mx-auto text-secondary">Enable your current location for better service
+                            </p>
+                            <a href="#" class="btn enanle-btn px-3 ">Enable</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal location end -->
+
+
+        <!-- cart  -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="d-flex p-3 border-bottom shadow-sm">
+                <button type="button" class="border-0 bg-transparent " data-bs-dismiss="offcanvas" aria-label="Close"><i
+                        class="fa-solid fa-angle-left fs-5"></i></button>
+                <h6 class="offcanvas-title ps-2" id="offcanvasRightLabel">Cart</h6>
+            </div>
+            <div>
+
+            </div>
+            <div class="offcanvas-body bg-light py-5">
+                <div class="cart-off">
+                    <div class="row py-5">
+                        <div class="col-sm-12 bg-white p-0 text-center py-3">
+                            <h5>Please Login</h5>
+                            <h6>Please login to access the cart</h6>
+                            <a href="#" class="btn enanle-btn px-3 w-75">Login</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cart end -->
+
+        <!-- profile section -->
+         <div class="row ">
+            <div class="col-sm-9 mx-auto " >
+                <div class="row ">
+                    <div class="col-sm-4 profile">
+                        <div class="row pt-4">
+                            <div class="col-sm-12 bg-profile d-flex py-3">
+                                <div class="p-3 text-light">
+                                    <img src="img/profile/ProfileIcon.svg" alt="" class="img-fluid ">
+                                </div>
+                                <div class="text-light">
+                                    <span class="text-center fw-bold fs-5">Kanhaiya</span> <br>
+                                    <span class="text-center text-secondary fw-semibold">+91 XXXXXXXXXX</span><br>
+                                    <img src="img/profile/BGLightPassLogo.svg" alt="" class="img-fluid " width="40px">
+                                    <span class="pass-date">Member</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 pass-active">
+                                <div class="pb-1 d-flex justify-content-between ">
+                                    <span><a href="#" class="text-decoration-none text-light">Valid till <b>12 Nov</b></a></span>
+                                    <div>
+                                        <span class="saved1 p-0 px-1">Saved ₹125</span>
+                                        <span><a href="zeptoPass.html"><i class="fa-solid fa-angle-right pass-date"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 pt-2 border">
+                                <ul class="list-unstyled">
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-solid fa-bag-shopping pe-5 fs-4"></i> Orders</a>  
+                                    </li>
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-solid fa-headset pe-5 fs-4"></i> Customer Support</a>  
+                                    </li>
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-regular fa-heart pe-5 fs-4"></i> Manage Referals</a>  
+                                    </li>
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-solid fa-location-dot pe-5 fs-4"></i> Addresse</a>  
+                                    </li>
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-regular fa-circle-user pe-5 fs-4"></i> Profile</a>  
+                                    </li>
+                                    <li class=" border p-3 nav-hover">
+                                        <a href="#" class="text-decoration-none text-dark fs-6 fw-semibold "><i class="fa-solid fa-wallet pe-5 fs-4"></i> Wallet</a>  
+                                    </li>
+                                    <div class="pt-3 text-center">
+                                        <button class="btn w-100 enanle-btn">Log Out</button>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-8 bg-light mt-4  order-list">
+                        <ul class="list-unstyled pt-2">
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="border p-2 rounded-3 bg-white mb-3">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <div class="row">
+                                        <div class="col-sm-12 ">
+                                            <img src="img/profile/parle.webp" alt="" class="img-fluid pe-2" width="50px " height="50px">
+
+                                            <img src="img/profile/maggi.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                            <img src="img/profile/milk.webp" alt="" class="img-fluid pe-2" width="50px" height="50px">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span><span
+                                                    class=" fw-bold">Order delivered</span> <img src="img/profile/order-delivered.svg" alt="" class="img-fluid pe-2"><p class="text-secondary">Order Placed at 20th Oct 2024, 10:15 am</p></span>
+                                                <span class="text-end  pe-3"><i class="fa-solid fa-indian-rupee-sign"></i>79.43</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- profile section end -->
+
+
+
+
+
+
+    </div>
+
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
